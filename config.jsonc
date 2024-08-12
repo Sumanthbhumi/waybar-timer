@@ -1,0 +1,11 @@
+// add this to your waybar config  
+"custom/timer": {
+    "exec": "$HOME/paht/to/timer.sh",
+    "return-type": "json",
+    "interval": 1,
+    "on-click": "$HOME/paht/to/timer.sh click",
+    "on-click-right": "$HOME/paht/to/timer.sh rightclick",
+    "on-click-middle": "$HOME/paht/to/timer.sh middleclick",
+    "on-scroll-up": "$HOME/paht/to/timer.sh up",
+    "on-scroll-down": "$HOME/paht/to/timer.sh down",
+  },
